@@ -10,9 +10,9 @@ class pessoa {
 
 $felipe = new pessoa();
 
-$felipe ->nome = "felipe";
-echo $felipe -> nome;
+$felipe->nome = "felipe";
+echo $felipe->nome;
 
 echo "<br>";
 
-$felipe -> falar();
+$felipe->falar();
