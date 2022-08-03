@@ -36,3 +36,4 @@ if(is_int($b) || is_float($b)) {
     echo "Não e um numero <br>";
 
 }
+
