@@ -16,11 +16,11 @@ $pessoa = [
         <th>idade</th>
     </tr>
     <?php   foreach($pessoa as $nome => $idade): ?>
-    <tr>
-        <td><?= $nome; ></td>
-        <td><?= $idade; ></td>
-    </tr>
-    <?php andforeach; ?>
+        <tr>
+            <td><?= $nome; ></td>
+            <td><?= $idade; ></td>
+        </tr>
+    <?php endforeach; ?>
 </table>
 
 
