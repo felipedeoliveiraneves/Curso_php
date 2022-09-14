@@ -1,7 +1,5 @@
 <?php
 
-
-
 class Humano{
 
     public function nome(){
