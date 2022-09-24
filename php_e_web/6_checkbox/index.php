@@ -1,9 +1,10 @@
 <?php
-if(isset($_POST['ingrediente'])){
 
-    $ingrediente = $_POST['ingrediente'];
+if(isset($_POST['ingredientes'])){
 
-    print_r($ingrediente);
+    $ingredientes = $_POST['ingredientes'];
+
+    print_r($ingredientes);
 }
 ?>
 
@@ -18,19 +19,19 @@ if(isset($_POST['ingrediente'])){
 <body>
     <form action="index.php" method="POST">
         <div>
-            <input type="checkbox" name="ingrediente[]" placeholder="Tomate"> Tomate
+            <input type="checkbox" name="ingredientes[]" value="Tomate"> Tomate
         </div>
         <div>
-            <input type="checkbox" name="ingrediente[]" placeholder="Alface"> Alface
+            <input type="checkbox" name="ingredientes[]" value="Alface"> Alface
         </div>
         <div>
-            <input type="checkbox" name="ingrediente[]" placeholder="Abobóra"> Abobóra
+            <input type="checkbox" name="ingredientes[]" value="Abobóra"> Abobóra
         </div>
         <div>
-            <input type="checkbox" name="ingrediente[]" placeholder="Feijão"> Feijão
+            <input type="checkbox" name="ingredientes[]" value="Feijão"> Feijão
         </div> 
         <div>
-            <input type="checkbox" name="ingrediente[]" placeholder="Cebola"> Cebola
+            <input type="checkbox" name="ingredientes[]" value="Cebola"> Cebola
         </div>
         <div>
             <input type="submit" value="Enviar">
