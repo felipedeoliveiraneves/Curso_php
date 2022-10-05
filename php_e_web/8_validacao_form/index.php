@@ -1,5 +1,4 @@
 <?php
-
 $validasoes = [];
 
 if(count($_POST) > 0){
